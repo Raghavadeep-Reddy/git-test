@@ -1,10 +1,10 @@
 pipeline {
-    agent any
+    agent Linux_Agent
     stages {
         stage('One') {
                 steps {
                         echo 'Hi, this is Raghavadeep Reddy'
-			sh 'pwd'
+			bat 'dir'
 			
                 }
         }
