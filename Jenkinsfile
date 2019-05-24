@@ -4,7 +4,7 @@ pipeline {
         stage('One') {
                 steps {
                         echo 'Hi, this is Raghavadeep Reddy'
-			bat 'dir'
+			sh 'pwd'
 			
                 }
         }
