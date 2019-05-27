@@ -1,5 +1,7 @@
 pipeline {
-    agent Linux_Agent
+	agent {
+		Linux_Agent
+	}
     stages {
         stage('One') {
                 steps {
